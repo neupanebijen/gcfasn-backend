@@ -1,0 +1,398 @@
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/formStyle.css" />
+</head>
+
+<body>
+    <header class="general__header">
+        <div class="general__header__wrapper">
+            <a href="../index.html" class="logo ">
+                <img src="../images/logo.png" alt="">
+            </a>
+            <div class="hamburger" role="navigation">
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="../index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="about.html">
+                            <li>About</li>
+                        </a>
+                        <a href="admission.html">
+                            <li>Admission</li>
+                        </a>
+                        <a href="academics.html">
+                            <li>Academics</li>
+                        </a>
+                        <a href="school.html">
+                            <li>Schools</li>
+                        </a>
+                        <a href="studentLife.html">
+                            <li>Student Life</li>
+                        </a>
+                        <a href="contact.html">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="general__header__menu">
+                <div class="menu__item">
+                    <a class="menu__item__link" href="../index.html">Home</a>
+                </div>
+                <div class="menu__item">
+                    <a class="menu__item__link" href="about.html">About Us</a>
+                    <div class="extended__link__container">
+                        <a href="#section__one" class="extended__link">About School</a>
+                        <a href="#section__two" class="extended__link">Message</a>
+                        <a href="#section__three" class="extended__link">Core Beliefs</a>
+                        <a href="#section__four" class="extended__link">Collaboration</a>
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <a class="menu__item__link" href="admission.html">Admission</a>
+                    <div class="extended__link__container">
+                        <a href="admission.html#section__one" class="extended__link">Apply</a>
+                        <a href="admission.html#section__two" class="extended__link">Financial Aid</a>
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <a class="menu__item__link" href="academics.html">Academics</a>
+                    <div class="extended__link__container">
+                        <a href="academics.html#section__one" class="extended__link">Elementary</a>
+                        <a href="academics.html#section__two" class="extended__link">Middle School</a>
+                        <a href="academics.html#section__three" class="extended__link">High School</a>
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <a class="menu__item__link" href="school.html">Schools</a>
+                </div>
+                <div class="menu__item">
+                    <a class="menu__item__link" href="studentLife.html">Student Life</a>
+                    <div class="extended__link__container">
+                        <a href="studentLife.html#section__one" class="extended__link">Exchange Program</a>
+                        <a href="studentLife.html#section__two" class="extended__link">Adventure Sports</a>
+                        <a href="studentLife.html#section__three" class="extended__link">Community Service</a>
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <a class="menu__item__link" href="#footer">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="applicationForm__section__one">
+        <div class="applicationForm__header">
+            <h1>Application form for Admission</h1>
+        </div>
+        <div class="body__wrapper">
+            <div class="applicationForm__body">
+                <div class="input__entity">
+                    <div class="input__text">Name of Student: </div>
+                    <div class="input__container">
+                        <input type="text" class="form__input" name='last_name' placeholder="Last Name" />
+                        <input type="text" class="form__input" name='first_name' placeholder="First Name" />
+                        <input type="text" class="form__input" name='middle_name' placeholder="Middle Name" />
+                    </div>
+                </div>
+                <div class="input__entity">
+                    <div class="input__text">Any other name: </div>
+                    <div class="input__container">
+                        <input type="text" class="form__input form__input__longer" name='other_name' placeholder="" />
+                    </div>
+                </div>
+                <div class="input__entity">
+                    <div class="input__text">Nationality(Country of Citizenship): </div>
+                    <div class="input__container">
+                        <input type="text" class="form__input form__input__long" name='country_of_citizenship' placeholder="" />
+                    </div>
+                </div>
+                <div class="input__entity">
+                    <div class="input__text">National Identification: </div>
+                    <div class="input__container">
+                        <input type="text" class="form__input" name='national_id_number' placeholder="National Id No." />
+                        <input type="text" class="form__input" name='national_id_place_of_issue' placeholder="Place of Issue" />
+                        <!-- Can add a date field here -->
+                        <input type="text" class="form__input form__date" name='passport_date_of_issue' placeholder="Date of Issue" />
+                    </div>
+                </div>
+                <div class="input__entity">
+                    <p class="input__text">Passport Information: </p>
+                    <div class="input__container">
+                        <input type="text" class="form__input" name='passport_number' placeholder="Passport No." />
+                        <input type="text" class="form__input" name='passport_place_of_issue' placeholder="Place of Issue" />
+                        <!-- Can add a date field here -->
+                        <input type="text" class="form__input form__date" name='passport_date_of_issue' placeholder="Date of Issue" />
+                        <input type="text" class="form__input form__date" name='passport_valid_upto' placeholder="Valid Upto" />
+                    </div>
+                </div>
+                <div class="input__entity">
+                    <div class="input__text">Father's Name: </div>
+                    <div class="input__container">
+                        <input type="text" class="form__input" name='father_last_name' placeholder="Last Name" />
+                        <input type="text" class="form__input" name='father_first_name' placeholder="First Name" />
+                        <input type="text" class="form__input" name='father_middle_name' placeholder="Middle Name" />
+                    </div>
+                </div>
+                <div class="input__entity">
+                    <div class="input__text">Mother's Student: </div>
+                    <div class="input__container">
+                        <input type="text" class="form__input" name='mother_last_name' placeholder="Last Name" />
+                        <input type="text" class="form__input" name='mother_first_name' placeholder="First Name" />
+                        <input type="text" class="form__input" name='mother_middle_name' placeholder="Middle Name" />
+                    </div>
+                </div>
+                <div class="input__entity">
+                    <div class="input__text">Local Guardian's Name: </div>
+                    <div class="input__container">
+                        <input type="text" class="form__input" name='guardian_last_name' placeholder="Last Name" />
+                        <input type="text" class="form__input" name='guardian_first_name' placeholder="First Name" />
+                        <input type="text" class="form__input" name='guardian_middle_name' placeholder="Middle Name" />
+                    </div>
+                </div>
+                <div class="input__entity">
+                    <div class="input__text">Contact Information: </div>
+                    <div class="input__container">
+                        <input type="text" class="form__input form__input__long" name='address' placeholder="Address" />
+                        <input type="email" class="form__input form__input__long" name='email' placeholder="Email" />
+                        <input type="tel" class="form__input " name='phoneNumber' placeholder="Phone No" />
+                    </div>
+                </div>
+                <div class="input__entity">
+                    <div class="input__text">Date Of Birth: </div>
+                    <div class="input__container">
+                        <input type="text" class="form__input form__date" name='address' placeholder="MM/DD/YYY(AD)" />
+                        <input type="text" class="form__input" name='email' placeholder="DD/MM/YYYY(BS)" />
+                    </div>
+                </div>
+                <div class="input__entity">
+                    <div class="input__text">Gender: </div>
+                    <div class="input__container">
+                        <select name="gender" class="form__input">
+                            <option value="male" class="form__input">Male</option>
+                            <option value="female" class="form__input">Female</option>
+                            <option value="others " class="form__input">Others</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input__entity">
+                    <div class="input__text">Permanent Address: </div>
+                    <div class="input__container permanent__address">
+                        <input type="text" class="form__input" name='permanent_ward' placeholder="Ward No." />
+                        <input type="text" class="form__input" name='permanent_street' placeholder="Tole(Street)" />
+                        <input type="text" class="form__input" name='permanent_municipality' placeholder="Municipality" />
+                        <input type="text" class="form__input" name='permanent_district' placeholder="District" />
+                        <input type="text" class="form__input" name='permanent_provice' placeholder="Province" />
+                        <input type="text" class="form__input" name='permanent_country' placeholder="Country" />
+                        <input type="number" class="form__input" name='permanent_postal' placeholder="Postal Code" />
+                        <input type="tel" class="form__input" name='permanent_phone' placeholder="Phone No" />
+                        <input type="email" class="form__input" name='permanent_email' placeholder="Email" />
+                    </div>
+                </div>
+                <div class="input__entity">
+                    <div class="input__text">Current Address: </div>
+                    <div class="input__container current__address">
+                        <input type="text" class="form__input" name='current_ward' placeholder="Ward No." />
+                        <input type="text" class="form__input" name='current_street' placeholder="Tole(Street)" />
+                        <input type="text" class="form__input" name='current_municipality' placeholder="Municipality" />
+                        <input type="text" class="form__input" name='current_district' placeholder="District" />
+                        <input type="text" class="form__input" name='current_provice' placeholder="Province" />
+                        <input type="text" class="form__input" name='current_country' placeholder="Country" />
+                        <input type="number" class="form__input" name='current_postal' placeholder="Postal Code" />
+                        <input type="tel" class="form__input" name='current_phone' placeholder="Phone No" />
+                        <input type="email" class="form__input" name='current_email' placeholder="Email" />
+                    </div>
+                </div>
+                <div class="educational__history-table">
+                    <div class="input__entity">
+                        <div class="input__text">Educational Infomation: </div>
+                    </div>
+                    <table class="form__edu__table">
+                        <tr>
+                            <td>
+                                <div class="table__heading">Level of Education</div>
+                            </td>
+                            <td>
+                                <div class="table__heading">Name of School</div>
+                            </td>
+                            <td>
+                                <div class="table__heading">City/Country</div>
+                            </td>
+                            <td>
+                                <div class="table__heading">Date of Attendence</div>
+                            </td>
+                            <td>
+                                <div class="table__heading">Language of Instruction</div>
+                            </td>
+                            <td>
+                                <div class="table__heading remove__border__right">GPA</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" class="form__input__table" name='level_of_education' /></td>
+                            <td> <input type="text" class="form__input__table" name='name_of_school' /></td>
+                            <td> <input type="text" class="form__input__table" name='city_or_country' /></td>
+                            <td> <input type="text" class="form__input__table" name='date_of_attendence' /></td>
+                            <td> <input type="text" class="form__input__table" name='language_of_instruction' /></td>
+                            <td> <input type="text" class="form__input__table remove__border__right" name='gpa' /></td>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" class="form__input__table" name='level_of_education' /></td>
+                            <td> <input type="text" class="form__input__table" name='name_of_school' /></td>
+                            <td> <input type="text" class="form__input__table" name='city_or_country' /></td>
+                            <td> <input type="text" class="form__input__table" name='date_of_attendence' /></td>
+                            <td> <input type="text" class="form__input__table" name='language_of_instruction' /></td>
+                            <td> <input type="text" class="form__input__table remove__border__right" name='gpa' /></td>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" class="form__input__table" name='level_of_education' /></td>
+                            <td> <input type="text" class="form__input__table" name='name_of_school' /></td>
+                            <td> <input type="text" class="form__input__table" name='city_or_country' /></td>
+                            <td> <input type="text" class="form__input__table" name='date_of_attendence' /></td>
+                            <td> <input type="text" class="form__input__table" name='language_of_instruction' /></td>
+                            <td> <input type="text" class="form__input__table remove__border__right" name='gpa' /></td>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" class="form__input__table remove__border__bottom" name='level_of_education' /></td>
+                            <td> <input type="text" class="form__input__table remove__border__bottom" name='name_of_school' /></td>
+                            <td> <input type="text" class="form__input__table remove__border__bottom" name='city_or_country' /></td>
+                            <td> <input type="text" class="form__input__table remove__border__bottom" name='date_of_attendence' /></td>
+                            <td> <input type="text" class="form__input__table remove__border__bottom" name='language_of_instruction' /></td>
+                            <td> <input type="text" class="form__input__table remove__border__bottom remove__border__right" name='gpa' /></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="input__entity responsive__table">
+                    <div class="input__text">Educational History: </div>
+                    <div class="input__container table__entries">
+                        <td> <input type="text" class="form__input" placeholder="Level of education" name='level_of_education' /></td>
+                        <td> <input type="text" class="form__input" placeholder="Name of School" name='name_of_school' /></td>
+                        <td> <input type="text" class="form__input" placeholder="City/Country" name='city_or_country' /></td>
+                        <td> <input type="text" class="form__input" placeholder="Date of Attendence" name='date_of_attendence' /></td>
+                        <td> <input type="text" class="form__input" placeholder="Langugae of Instruction" name='language_of_instruction' /></td>
+                        <td> <input type="text" class="form__input" placeholder="GPA" name='gpa' /></td>
+                    </div>
+                </div>
+                <div class="add__responsive__table"><button class="add">Add another</button></div>
+                <div class="extra__input">
+                    <input type="checkbox" id="terms">
+                    <label for="terms" class="input__text">I agree to all the <a href="">terms and condition</a></label>
+                </div>
+                <div class="extra__button button" id="submit__button">Submit</div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="footer__wrapper">
+            <h3>Have Any Queries</h3>
+            <div class="footer__inner">
+                <form action="" class="footer__form">
+                    <h3>Contact Form</h3>
+                    <div class="form__fill__container">
+                        <div class="name">
+                            <p>Name</p>
+                            <input type="text">
+                        </div>
+                        <div class="email">
+                            <p>Email</p>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <p>Message</p>
+                    <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                    <input type="submit" value="Send" class="submit">
+                </form>
+                <div class="contact__info">
+                    <div class="info">
+                        <div class="icon__wrapper"><i class="fas fa-envelope"></i></div>
+                        <p>info@gcfasn.com</p>
+                    </div>
+                    <div class="info">
+                        <div class="icon__wrapper"><i class="fas fa-phone"></i></div>
+                        <p>01-xxxxxxx</p>
+                    </div>
+                    <div class="info">
+                        <div class="icon__wrapper"><i class="fas fa-map-marker-alt"></i></div>
+                        <p>Kathmandu,Nepal</p>
+                    </div>
+                    <div class="follow__us">
+                        <p>Follow Us: </p>
+                        <div class="icon__wrapper"><i class="fab fa-facebook"></i></div>
+                        <div class="icon__wrapper"><i class="fab fa-twitter"></i></div>
+                        <div class="icon__wrapper"><i class="fab fa-instagram"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">&copy; 2021 GCF American School of Nepal, All Rights Reserverd</div>
+    </footer>
+</body>
+<script type="text/javascript">
+const formDates = document.querySelectorAll('.form__date')
+
+const formDateClicked = (date) => {
+    date.type = 'date'
+    date.removeEventListener('click', formDateClicked)
+    date.removeEventListener('focus', formDateClicked)
+}
+
+formDates.forEach(date => {
+    date.addEventListener('click', () => formDateClicked(date))
+    date.addEventListener('focus', () => formDateClicked(date))
+})
+const onSubmit = () => {
+    if (!termsCheck.checked) {
+        alert('You can only submit if you agree to all our terms and conditions')
+        return
+    }
+
+    const inputContainer = document.querySelectorAll('.form__input')
+    let userDataObject = {}
+
+    inputContainer.forEach(input => {
+        userDataObject[input.name] = input.value
+
+    })
+    const tableInputs = document.querySelectorAll('.form__input__table')
+    tableInputs.forEach(input => {
+        if (input.value !== null) {
+            if (!Object.keys(userDataObject).includes(input.name)) {
+                userDataObject[input.name] = []
+            }
+            if (input.value === '') {
+                return
+            }
+            userDataObject[input.name].push(input.value)
+        }
+    })
+    // document.location.reload(true)
+}
+
+const formSubmit = document.querySelector('#submit__button')
+const termsCheck = document.querySelector('#terms')
+formSubmit.addEventListener('click', onSubmit)
+
+// add table item
+const tableContainer = document.querySelector('.responsive__table')
+
+const addToTable = () => {
+    const table = document.querySelector('.table__entries').cloneNode(true)
+    tableContainer.appendChild(table)
+    console.log(table)
+}
+
+const addTableButton = document.querySelector('.add')
+addTableButton.addEventListener('click', addToTable)
+</script>
+
+</html>

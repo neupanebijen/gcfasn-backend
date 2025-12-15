@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.js": "/static/js/main.c327c838.chunk.js",
+    "main.js.map": "/static/js/main.c327c838.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.43d9fe35.js",
+    "runtime-main.js.map": "/static/js/runtime-main.43d9fe35.js.map",
+    "static/css/2.ed1298f3.chunk.css": "/static/css/2.ed1298f3.chunk.css",
+    "static/js/2.c3a72c46.chunk.js": "/static/js/2.c3a72c46.chunk.js",
+    "static/js/2.c3a72c46.chunk.js.map": "/static/js/2.c3a72c46.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ed1298f3.chunk.css.map": "/static/css/2.ed1298f3.chunk.css.map",
+    "static/js/2.c3a72c46.chunk.js.LICENSE.txt": "/static/js/2.c3a72c46.chunk.js.LICENSE.txt",
+    "static/media/About_s1_i1.1b67821c.png": "/static/media/About_s1_i1.1b67821c.png",
+    "static/media/About_s1_i2.8597182c.png": "/static/media/About_s1_i2.8597182c.png",
+    "static/media/About_s2_i1.01adbe6b.png": "/static/media/About_s2_i1.01adbe6b.png",
+    "static/media/About_s2_i2.dc2a2888.png": "/static/media/About_s2_i2.dc2a2888.png",
+    "static/media/Background.27fab760.png": "/static/media/Background.27fab760.png",
+    "static/media/ContactBackground.6c430e65.png": "/static/media/ContactBackground.6c430e65.png",
+    "static/media/Hero Section Image.8681240a.png": "/static/media/Hero Section Image.8681240a.png",
+    "static/media/Logo - AMS.e3968322.png": "/static/media/Logo - AMS.e3968322.png",
+    "static/media/Logo - CSULB.7c508de7.png": "/static/media/Logo - CSULB.7c508de7.png",
+    "static/media/Logo.d53a31f4.png": "/static/media/Logo.d53a31f4.png",
+    "static/media/NCSchool.5cd9969d.png": "/static/media/NCSchool.5cd9969d.png",
+    "static/media/Rect 1.8f189672.png": "/static/media/Rect 1.8f189672.png",
+    "static/media/Rect 2.e39415ca.png": "/static/media/Rect 2.e39415ca.png",
+    "static/media/Rect 3.77aed3ac.png": "/static/media/Rect 3.77aed3ac.png",
+    "static/media/benefits.a16498a7.jpg": "/static/media/benefits.a16498a7.jpg",
+    "static/media/graduation.a56fab56.jpg": "/static/media/graduation.a56fab56.jpg",
+    "static/media/graduation2.66fa46df.jpg": "/static/media/graduation2.66fa46df.jpg",
+    "static/media/notice.5f2ecef7.jpg": "/static/media/notice.5f2ecef7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43d9fe35.js",
+    "static/css/2.ed1298f3.chunk.css",
+    "static/js/2.c3a72c46.chunk.js",
+    "static/js/main.c327c838.chunk.js"
+  ]
+}

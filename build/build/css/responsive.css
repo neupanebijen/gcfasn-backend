@@ -1,0 +1,616 @@
+@media screen and (max-width: 1600px)
+{
+    :root
+    {
+        --wrapper-width: 88%;
+        --normal-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1100px)
+{
+    :root
+    {
+        --wrapper-width: 95%;
+        --heading-size: calc(40px + .52vw);
+        --normal-size: calc(18px + .4vw);
+        --small-size: calc(14px + .4vw);
+    }
+
+    .bordered__button::before
+    {
+        display: none;
+    }
+
+    .hero__button::before
+    {
+        display: inline;
+    }
+
+    .header__menu
+    {
+        width: 100vw;
+        padding: 0 15px;
+    }
+
+
+    /*About Programs*/
+    .about__school,
+    .programs
+    {
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 50px;
+        padding-top: 0;
+    }
+
+    .about__school__header,
+    .programs__header
+    {
+        height: 20%;
+    }
+
+    .about__school__image,
+    .programs__images
+    {
+        display: flex;
+
+        width: 100%;
+        max-height: 35vh;
+
+        justify-content: center;
+    }
+
+    .about__school__content,
+    .programs__content
+    {
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .about__school__text,
+    .programs__text
+    {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        margin-top: 30px;
+
+        align-items: center;
+    }
+
+    .programs__images
+    {
+        width: 97%;
+
+        gap: 10px;
+    }
+
+    .program__image2,
+    .program__image3
+    {
+        display: none;
+    }
+
+    .programs__content
+    {
+        flex-direction: column-reverse;
+    }
+
+    .program__image img
+    {
+        display: inline-block;
+
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+    /*Other pages*/
+    .about__section__two .section__content,
+    .section__four .section__content,
+    .admission__section__one .section__content,
+    .admission__section__two .section__content,
+    .academics__section__one .section__content,
+    .academics__section__three .section__content,
+    .studentLife__section__one .section__content
+    {
+        flex-direction: column;
+
+        justify-content: flex-start;
+        flex-grow: 0;
+    }
+
+    .about__section__two .section__content
+    {
+        margin-top: 0;
+    }
+
+    .about__section__two .section__two__image,
+    .section__four .section__four__image,
+    .admission__section__one .admission__image,
+    .admission__section__two .admission__image,
+    .academics__section__one .academics__image,
+    .studentLife__section__one .content__image
+    {
+        width: 100%;
+        min-height: 30px;
+
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .about__section__two .section__two__image
+    {
+        margin-top: 10px;
+    }
+
+    .about__section__two .section__two__image img,
+    .section__four .section__four__image img
+    {
+        width: 38%;
+        min-height: 100px;
+    }
+
+    .section__two__image p
+    {
+        margin-left: -1%;
+
+        align-self: center;
+    }
+
+    .about__section__two .content__text,
+    .section__four .content__text,
+    .admission__section__one .content__text,
+    .academics__section__one .content__text,
+    .admission__section__two .content__text,
+    .academics__section__two .content__text,
+    .academics__section__three .content__text,
+    .studentLife__section__one .content__text
+    {
+        width: 100%;
+        margin-top: 2.5vw;
+    }
+
+    .section__three__image
+    {
+        height: 100%;
+    }
+
+    /*admission section*/
+    .admission__section__one
+    {
+    }
+
+    .admission__section__two
+    {
+    }
+
+    .admission__section__one .content__text,
+    .admission__section__two .content__text
+    {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .admission__section__one .section__content,
+    .academics__section__one .section__content,
+    .academics__section__three .section__content
+    {
+        flex-direction: column-reverse;
+    }
+
+    .admission__section__one .admission__image,
+    .admission__section__two .admission__image,
+    .academics__section__one .academics__image
+    {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /*academics*/
+    .academics__section__one
+    {
+        height: 110%;
+    }
+
+    .academics__section__three
+    {
+        height: 100%;
+    }
+
+    .academics__section__two .section__content,
+    .academics__section__three .section__content
+    {
+        height: 100%;
+    }
+
+    .academics__section__two .content__images,
+    .academics__section__three .content__images,
+    .studentLife__section__one .content__images
+    {
+        width: 100%;
+    }
+
+    .academics__section__two .image,
+    .academics__section__three .image,
+    .studentLife__section__one .image
+    {
+        width: 45%;
+        height: 100%;
+    }
+
+
+    .academics__section__two .image2,
+    .academics__section__three .image2,
+    .studentLife__section__one .image2
+    {
+        top: 0;
+        right: 0;
+    }
+
+    .academics__section__two .image3,
+    .academics__section__three .image3,
+    .studentLife__section__one .image3
+    {
+        top: 0;
+        left: 75%;
+    }
+
+    /*Student Life*/
+    .studentLife__section__one .section__content
+    {
+        height: 100%;
+    }
+
+    /*Extras Section*/
+    .extra__title
+    {
+        font: normal normal normal 10vw/11vw Ink Free;
+
+        letter-spacing: .4vw;
+    }
+
+    .extra__text
+    {
+        font: normal normal normal 6vw/7vw Ink Free;
+
+        letter-spacing: .36px;
+    }
+
+    .extra__link
+    {
+        font: normal normal normal 3.6vw/7vw Ink Free;
+
+        cursor: pointer;
+        text-decoration: underline;
+
+        opacity: .7;
+        color: #fcf8f8;
+    }
+
+    .three__image img
+    {
+        width: 35vw;
+    }
+
+    .background__title
+    {
+        margin-top: 1.2vw;
+    }
+
+    .footer
+    {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .footer .icon__wrapper
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    /*Section wrapper general rules*/
+    .section__one__wrapper,
+    .about__section__two,
+    .about__section__three .section__three__wrapper,
+    .section__wrapper,
+    .admission__section__one,
+    .academics__section__one,
+    .academics__section__two,
+    .academics__section__three
+    {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .section__one .content__images,
+    .about__section__three .section__three__image,
+    .academics__section__two .content__images
+    {
+        height: auto;
+    }
+
+    .section__content__inner
+    {
+        margin-top: 40px;
+    }
+
+    .admission__section__one,
+    .academics__section__one,
+    .academics__section__two,
+    .academics__section__three,
+    .about__section__three
+    {
+        padding-bottom: 0;
+    }
+
+    .academics__section__two .content__images,
+    .academics__section__three .content__images
+    {
+        height: 30vh;
+        max-height: 40%;
+    }
+
+    .studentLife__section__one .section__wrapper
+    {
+        height: auto;
+    }
+
+    .studentLife__section__one .content__images
+    {
+        height: 30vh;
+        max-height: 40%;
+    }
+
+    .studentLife__section__two .image2,
+    .studentLife__section__two .image3
+    {
+        display: none;
+    }
+
+    .section__heading
+    {
+        display: flex;
+
+        justify-content: center;
+    }
+
+    /*under construction*/
+    .section__construction h3
+    {
+        font-size: 30px;
+
+        text-align: center;
+    }
+
+
+    .background__title,
+    .background__text
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px)
+{
+    #menuToggle
+    {
+        top: 25px;
+    }
+
+    .hamburger
+    {
+        display: block;
+        overflow: hidden;
+
+        max-height: 100vh;
+    }
+
+    .home__general__header
+    {
+        display: flex;
+    }
+
+    .header
+    {
+        display: none;
+    }
+
+    .general__header__menu
+    {
+        display: none;
+    }
+
+    .about__school__header .background__text h2,
+    .programs__header .background__text h2
+    {
+        top: 15%;
+        left: 0;
+
+        letter-spacing: -15;
+    }
+    .section__heading h2
+    {
+        display: inline-block;
+
+        text-align: center;
+    }
+    .about__school__header h2,
+    .programs__header h2
+    {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    :root
+    {
+        --heading-size: 32px;
+    }
+
+    body
+    {
+        max-width: 100vw;
+    }
+
+    #menuToggle
+    {
+        top: 20px;
+    }
+
+    .index__hamberger #menuToggle
+    {
+        top: 40px;
+    }
+
+    .hero
+    {
+        height: 85vh;
+
+        background-position: 80%;
+    }
+
+    .hero__wrapper
+    {
+        display: flex;
+    }
+
+    .hero__text
+    {
+        font-size: 50px;
+
+        margin-top: 150px;
+    }
+
+    .hero__button
+    {
+        margin-top: 100px;
+    }
+
+    /*index*/
+    .program__image1
+    {
+        display: none;
+    }
+
+    .program__image
+    {
+        width: 100%;
+    }
+
+    /*footer*/
+    .footer
+    {
+        padding: 15px 0 10px 5px;
+    }
+
+    .footer__inner
+    {
+        flex-direction: column;
+    }
+
+    .footer__form
+    {
+        width: 100%;
+    }
+
+    .contact__info
+    {
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+
+    .contact__info .follow__us
+    {
+        margin-top: 20px;
+    }
+
+    .copyright
+    {
+        position: relative;
+
+        margin-top: 20px;
+    }
+
+    /*other pages*/
+    .about__section__one .section__content,
+    .section__content__inner:last-child
+    {
+        flex-direction: column-reverse;
+    }
+
+    .section__content__inner
+    {
+        flex-direction: column;
+    }
+
+    .about__section__one .content__images,
+    .section__content__inner .section__three__image
+    {
+        width: 100%;
+        height: 30vh;
+        max-height: 40%;
+    }
+
+    .about__section__one .content__images .image1
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about__section__one .content__text,
+    .section__content__inner .content__text
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .about__section__one .image2,
+    .about__section__one .image3
+    {
+        display: none;
+    }
+
+    .about__section__two .section__two__image
+    {
+        width: 100%;
+    }
+
+    .about__section__two .section__two__image img
+    {
+        width: 100%;
+    }
+
+    .chairman__name
+    {
+        margin-bottom: 10px;
+    }
+
+    .section__heading .background__title
+    {
+        display: none;
+    }
+
+    .extra__title
+    {
+        font: normal normal normal 12vw/10vw Ink Free;
+    }
+
+    .extra__text
+    {
+        font: normal normal normal 8vw/9vw Ink Free;
+    }
+
+    .extra__link
+    {
+        font: normal normal normal 6vw/9vw Ink Free;
+    }
+}
