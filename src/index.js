@@ -13,10 +13,9 @@ app.use(cors())
 app.use(express.json())
 app.use(express.static("src/public"))
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT 
 const DB_URI =
-  process.env.DB_URI ||
-  "mongodb+srv://admin:adminpassword@sandbox.a6jbh.mongodb.net/GCFASN?retryWrites=true&w=majority"
+  process.env.DB_URI 
 
 app.use("/page", pageRouter)
 app.use("/util", utilRouter)
@@ -32,3 +31,4 @@ mongoose.connect(DB_URI, { useNewUrlParser: true }, () => {
 app.listen(PORT, () => {
   console.log("App running in port ", PORT)
 })
+
